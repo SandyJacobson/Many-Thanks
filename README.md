@@ -14,7 +14,19 @@ No "thank you" goes unappreciated and it can be a large or small as you want.
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+{
+    "records": [
+        {
+            "id": "recoaY6NfxUIU2GWB",
+            "fields": {
+                "Name": "Sandy Jacobson",
+                "1st Thanks": "My wife made strawberry bread\n",
+                "2nd Thanks": "my daughter gave me a kiss\n",
+                "3rd Thanks": "megan helped me with my computer",
+                "Date": "9/3/2020"
+            },
+            "createdTime": "2020-09-03T12:59:41.000Z"
+        },
 
 ## Wireframes
 
