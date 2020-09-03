@@ -49,6 +49,7 @@ https://wireframe.cc/L43Imq
 #### MVP 
 
 - Create a 6 component React App
+- Integrate AirTable API
 - Have 2 seperate pages for Home/About and Journal Entries
 - Have new form to create a new entry
 
@@ -63,7 +64,7 @@ https://wireframe.cc/L43Imq
 |  Day | Deliverable | Status
 |---|---| ---|
 |September 4| Project Approval | Incomplete
-|September 7| Core Application Structure (React Components) | Incomplete
+|September 7| Core Application Structure (React Components)/Integrating API | Incomplete
 |September 8| Set up routes for sperate pages and create new entry form | Incomplete
 |September 9| Finish any incomplete core structure and styling  | Incomplete
 |Semptember 10|  Post MVP/Delete Entry Button/Favorite Button/3 Pages | Incomplete
@@ -71,18 +72,28 @@ https://wireframe.cc/L43Imq
 
 ## Priority Matrix
 
+https://app.lucidchart.com/invitations/accept/837b181a-2f4f-48c1-ac46-9f0b17f74257
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Setting up basic structure | H | 3hrs| 0 | 0 |
+| Setting up basic structure | H | 3hrs| 0 | 0 |
+| Working with API | H | 3hrs| 0 | 0 |
+| Working with API | H | 3hrs| 0 | 0 |
+| Setting up routes and new pages | H | 3hrs| 0 | 0 |
+| Setting up routes and new pages | H | 3hrs| 0 | 0 |
+| Creating new entry form | H | 3hrs| 0 | 0 |
+| Creating new entry form | H | 3hrs| 0 | 0 |
+| Fix bugs, rework any structure issues | H | 3hrs| 0 | 0 |
+| Fix bugs, rework any structure issues | H | 3hrs| 0 | 0 |
+| Styling | H | 3hrs| 0 | 0 |
+| Styling | H | 3hrs| 0 | 0 |
+| Post MVP | H | 3hrs| 0 | 0 |
+| Post MVP | H | 3hrs| 0 | 0 |
+| Post MVP | H | 3hrs| 0 | 0 |
+| Total | H | 45hrs| hrs | hrs |
 
 ## Code Snippet
 
