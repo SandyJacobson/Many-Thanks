@@ -22,6 +22,16 @@ https://wireframe.cc/L43Imq
 
 ## Component Heirarchy
 
+(Parent Component)
+1 - App.js
+
+(Children Components - All Functional)
+2. Home.jsx
+3. About.jsx
+4. Entries.jsx
+5. CreateEntries.jsx
+6. Form.jsx
+
 
 
 #### MVP 
@@ -49,7 +59,6 @@ https://wireframe.cc/L43Imq
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
 
 ## Timeframes
 
