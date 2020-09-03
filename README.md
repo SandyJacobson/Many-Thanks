@@ -1,68 +1,77 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Overview
 
-## Available Scripts
+## Project Name
 
-In the project directory, you can run:
+Many Thanks
 
-### `npm start`
+## Project Description
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+In world where everything a person could want is just a click of a button away, we have become increasingly more entitled. To qoute Veruca Salt, "I want it and I want it now", this mentality is becoming increasingly more relevant with every generation. But do we ever stop to think about the all people who make it happen behind the scenes?
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Many Thanks allows a person to take a birds eye of view of their lives and really think about all the people who go unthanked. Whether it is a delivery person, a developer, someone working the checkout line at a grocery or an individual family member. 
 
-### `npm test`
+No "thank you" goes unappreciated and it can be a large or small as you want. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## API and Data Sample
 
-### `npm run build`
+Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Wireframes
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+https://wireframe.cc/L43Imq
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Component Heirarchy
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### MVP 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Create a 6 component React App
+- Have 2 seperate pages for Home/About and Journal Entries
+- Have new form to create a new entry
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### PostMVP  
 
-## Learn More
+- 3 seperates pages with the form being it's own page
+- A favorites button
+- delete entry button
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Schedule
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+|  Day | Deliverable | Status
+|---|---| ---|
+|September 4| Project Approval | Incomplete
+|September 7| Core Application Structure (React Components) | Incomplete
+|September 8| Set up routes for sperate pages and create new entry form | Incomplete
+|September 9| Finish any incomplete core structure and styling  | Incomplete
+|Semptember 10|  Post MVP/Delete Entry Button/Favorite Button/3 Pages | Incomplete
+|September 11| Presentations | Incomplete
 
-### Code Splitting
+## Priority Matrix
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
 
-### Analyzing the Bundle Size
+## Timeframes
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
 
-### Making a Progressive Web App
+Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
+| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Total | H | 6hrs| 5hrs | 5hrs |
 
-### Advanced Configuration
+## Code Snippet
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-### Deployment
+```
+function reverse(string) {
+	// here is the code to reverse a string of text
+}
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Change Log
+ Use this section to document what changes were made and the reasoning behind those changes.  
