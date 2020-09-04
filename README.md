@@ -39,7 +39,8 @@ https://wireframe.cc/L43Imq
 (Parent Component)
 1 - App.js
 |
-  (Children Components - All Functional)
+  
+(Children Components - All Functional)
  - 2. Home.jsx
  - 3. About.jsx
  - 4. Entries.jsx
