@@ -36,8 +36,7 @@ https://wireframe.cc/L43Imq
 
 #### Component Heirarchy
 
-(Parent Component)
-1 - App.js
+1 - App.js - (Parent Component)
 |
   
 (Children Components - All Functional)
