@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <header>
       <div className='nav'>
