@@ -3,11 +3,6 @@ import React from "react";
 const About = (props) => {
   return (
     <div>
-      <h1>Many Thanks</h1>
-      <img
-        src="https://www.swedishnomad.com/wp-content/images/2019/09/thank-you-in-different-languages.jpg"
-        alt="Thank You in Many Languages"
-      />
       <h3>About Us</h3>
       <p>
         In world where everything a person could want is just a click of a
