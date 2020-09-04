@@ -34,17 +34,17 @@ No "thank you" goes unappreciated and it can be a large or small as you want.
 
 https://wireframe.cc/L43Imq
 
-## Component Heirarchy
+#### Component Heirarchy
 
 (Parent Component)
 1 - App.js
-
-(Children Components - All Functional)
-2. Home.jsx
-3. About.jsx
-4. Entries.jsx
-5. CreateEntries.jsx
-6. Form.jsx
+|
+  (Children Components - All Functional)
+ - 2. Home.jsx
+ - 3. About.jsx
+ - 4. Entries.jsx
+ - 5. CreateEntries.jsx
+ - 6. Form.jsx
 
 
 
@@ -99,9 +99,23 @@ https://app.lucidchart.com/invitations/accept/837b181a-2f4f-48c1-ac46-9f0b17f742
 
 ## Swot Analysis
 
-I feel like I don't know React enough to build this. I know there is support and I plan to use it, but my biggest obstacle I believe is my lack of knowledge, confidence. Everytime it seemed like I was getting a handle on concept, we would introduce something else and would throw everything else off. I believe I'm at a good starting point, I know what I don't know. But I also think it's a lot. 
+#### Strenghts
+- Organization
+- Ability to seek out help
+- Ability to learn on my own
+- Confidence in my ability to complete the work on time
+- Ability to accept what I don't know
 
-I know that I need to just get working and deal with issues as they come along. 
+#### Weakness
+- Lack of knowledge in React
+- Lack of confidence in what I do know
+
+#### Opportunities
+- Grow in my overall knowledge of React
+- Build confidence in my ability to learn
+
+#### Threats
+- Imposter syndrone
 
 ## Code Snippet
 
