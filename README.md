@@ -14,6 +14,7 @@ No "thank you" goes unappreciated and it can be a large or small as you want.
 
 ## API and Data Sample
 
+```json
 {
     "records": [
         {
@@ -27,6 +28,7 @@ No "thank you" goes unappreciated and it can be a large or small as you want.
             },
             "createdTime": "2020-09-03T12:59:41.000Z"
         },
+```
 
 ## Wireframes
 
