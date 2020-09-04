@@ -95,6 +95,12 @@ https://app.lucidchart.com/invitations/accept/837b181a-2f4f-48c1-ac46-9f0b17f742
 | Post MVP | H | 3hrs| 0 | 0 |
 | Total | H | 45hrs| hrs | hrs |
 
+## Swot Analysis
+
+I feel like I don't know React enough to build this. I know there is support and I plan to use it, but my biggest obstacle I believe is my lack of knowledge, confidence. Everytime it seemed like I was getting a handle on concept, we would introduce something else and would throw everything else off. I believe I'm at a good starting point, I know what I don't know. But I also think it's a lot. 
+
+I know that I need to just get working and deal with issues as they come along. 
+
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
