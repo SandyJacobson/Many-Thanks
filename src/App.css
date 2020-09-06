@@ -1,6 +1,12 @@
+.app {
+  background-color: rgba(170, 209, 230);
+}
+
 img {
   height: auto;
-  width: 100%;
+  width: 90%;
+  border-radius: 10%;
+  margin: 0 auto;
 }
 
 h1 {

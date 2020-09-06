@@ -1,9 +1,22 @@
 nav {
-background-color: rgba(73, 131, 178);
-padding: 10px, 0, 10px, 0;
+background-color: rgba(170, 209, 230);
 }
 
 .display {
 display: flex;
 justify-content: space-evenly;
+}
+
+.home-link {
+  background-color: rgba(245, 110, 112); 
+  font-size: large;
+}
+
+.entries-link {
+  background-color: rgba(37, 50, 93);
+  font-size: large;
+}
+
+.about-link {
+  font-size: large;
 }
