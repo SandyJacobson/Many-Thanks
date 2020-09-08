@@ -6,27 +6,28 @@ import Home from "./Components/Home";
 import CreateEntries from "./Components/CreateEntries";
 import Entries from "./Components/Entries";
 import axios from "axios";
-import { baseURL } from './constants'
+import { baseURL } from "./constants";
 import "./App.css";
 import "./Styling/Nav.css";
+import "./Styling/Entries.css";
 
 function App() {
-  const [entries, setEntries] = useState([])
+  const [entries, setEntries] = useState([]);
+  const [fetchEntries, setFetchEntries] = useState(false);
 
   useEffect(() => {
     const getEntries = async () => {
       const apiKey = {
         headers: {
           Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
-        }
-      }
-      const response = await axios.get(baseURL, apiKey)
-      console.log(response)
-      setEntries(response.data.records)
-    }
-    getEntries()
-  }, [])
-  
+        },
+      };
+      const response = await axios.get(baseURL, apiKey);
+      console.log(response);
+      setEntries(response.data.records);
+    };
+    getEntries();
+  }, [fetchEntries]);
 
   return (
     <div className="app">
@@ -46,8 +47,16 @@ function App() {
           <About />
         </Route>
         <Route exact path="/entries">
-          <Entries entries={entries}/>
+          <Entries
+            entries={entries}
+            fetchEntires={fetchEntries}
+            setFetchEntries={setFetchEntries}
+          />
         </Route>
+        <CreateEntries
+          fetchEntires={fetchEntries}
+          setFetchEntries={setFetchEntries}
+        />
       </div>
     </div>
   );

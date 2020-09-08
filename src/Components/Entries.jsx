@@ -6,11 +6,11 @@ const Entries = (props) => {
     console.log(entry);
     return (
       <div key={index}>
-        <h3>{entry.fields.name}</h3>
-        <h3>{entry.fields.date}</h3>
-        <h3>{entry.fields.firstThanks}</h3>
-        <h3>{entry.fields.secondThanks}</h3>
-        <h3>{entry.fields.thirdThanks}</h3>
+        <h3>Name: {entry.fields.name}</h3>
+        <h3>Date: {entry.fields.date}</h3>
+        <h3>1st Thanks: {entry.fields.firstThanks}</h3>
+        <h3>2nd Thanks: {entry.fields.secondThanks}</h3>
+        <h3>3rd Thanks: {entry.fields.thirdThanks}</h3>
       </div>
     );
   });
