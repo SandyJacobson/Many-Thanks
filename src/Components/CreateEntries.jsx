@@ -2,39 +2,39 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const CreateEntries = (props) => {
-  // const [name, setName] = useState(props.entries.fields.name);
-  // const [firstThanks, setFirstThanks] = useState(props.entries.fields.firstThanks);
-  // const [secondThanks, setSecondThanks] = useState(props.entries.fields.secondThanks);
-  // const [thirdThanks, setThirdThanks] = useState(props.entries.fields.thirdThanks);
-  // const [date, setDate] = useState(props.entry.fields.date);
+  const [name, setName] = useState("");
+  const [firstThanks, setFirstThanks] = useState("");
+  const [secondThanks, setSecondThanks] = useState("");
+  const [thirdThanks, setThirdThanks] = useState("");
+  const [date, setDate] = useState("");
 
-  // const handleSubmit = async (event) => {
-  //   event.preventDefault();
-  //   const fields = {
-  //     name,
-  //     firstThanks,
-  //     secondThanks,
-  //     thirdThanks,
-  //     date
-  //   };
-  //   const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/manythanks/${props.review.id}`;
-  //   await axios.put(airtableURL, { fields }, {
-  //     headers: {
-  //       'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
-  //       'Content-Type': 'application/json',
-  //     }
-  //   });
-  //   props.setFetchEntries(!props.fetchEntries);
-  //   setName('');
-  //   setFirstThanks('');
-  //   setSecondThanks('');
-  //   setThirdThanks('');
-  //   setDate('');
-  // }
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const fields = {
+      name,
+      firstThanks,
+      secondThanks,
+      thirdThanks,
+      date
+    };
+    const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/manythanks/${props.review.id}`;
+    await axios.create(airtableURL, { fields }, {
+      headers: {
+        'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
+        'Content-Type': 'application/json',
+      }
+    });
+    props.setFetchEntries(!props.fetchEntries);
+    setName('');
+    setFirstThanks('');
+    setSecondThanks('');
+    setThirdThanks('');
+    setDate('');
+  }
 
   return (
     <div className="form">
-      {/* <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
         <input
           name="name"
@@ -71,7 +71,7 @@ const CreateEntries = (props) => {
           onChange={(event) => setDate(event.target.value)}
         />
         <button type="Submit">Send My Thanks</button>
-      </form> */}
+      </form>
     </div>
   );
 };
