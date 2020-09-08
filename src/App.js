@@ -49,6 +49,7 @@ function App() {
         <Route exact path="/entries">
           <Entries
             entries={entries}
+            setEntries={setEntries}
             fetchEntires={fetchEntries}
             setFetchEntries={setFetchEntries}
           />

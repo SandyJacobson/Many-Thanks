@@ -7,6 +7,7 @@ const CreateEntries = (props) => {
   const [secondThanks, setSecondThanks] = useState("");
   const [thirdThanks, setThirdThanks] = useState("");
   const [date, setDate] = useState("");
+  const { fetchEntries } = props
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -28,13 +29,15 @@ const CreateEntries = (props) => {
         },
       }
     );
-    props.setFetchEntries(!props.fetchEntries);
+    props.setFetchEntries(prevEntries => !prevEntries);
     setName("");
     setFirstThanks("");
     setSecondThanks("");
     setThirdThanks("");
     setDate("");
   };
+
+
 
   return (
     <div className="form">
