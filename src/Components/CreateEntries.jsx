@@ -15,22 +15,26 @@ const CreateEntries = (props) => {
       firstThanks,
       secondThanks,
       thirdThanks,
-      date
+      date,
     };
-    const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/manythanks/${props.review.id}`;
-    await axios.create(airtableURL, { fields }, {
-      headers: {
-        'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
-        'Content-Type': 'application/json',
+    const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/manythanks`;
+    await axios.post(
+      airtableURL,
+      { fields },
+      {
+        headers: {
+          Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
+          "Content-Type": "application/json",
+        },
       }
-    });
+    );
     props.setFetchEntries(!props.fetchEntries);
-    setName('');
-    setFirstThanks('');
-    setSecondThanks('');
-    setThirdThanks('');
-    setDate('');
-  }
+    setName("");
+    setFirstThanks("");
+    setSecondThanks("");
+    setThirdThanks("");
+    setDate("");
+  };
 
   return (
     <div className="form">

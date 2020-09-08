@@ -56,9 +56,10 @@ function App() {
         <CreateEntries
           fetchEntires={fetchEntries}
           setFetchEntries={setFetchEntries}
-        />
+        /> 
       </div>
     </div>
+    
   );
 }
 
