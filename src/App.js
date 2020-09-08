@@ -53,13 +53,14 @@ function App() {
             setFetchEntries={setFetchEntries}
           />
         </Route>
-        <CreateEntries
-          fetchEntires={fetchEntries}
-          setFetchEntries={setFetchEntries}
-        /> 
+        <Route exact path="/">
+          <CreateEntries
+            fetchEntires={fetchEntries}
+            setFetchEntries={setFetchEntries}
+          />
+        </Route>
       </div>
     </div>
-    
   );
 }
 

@@ -11,6 +11,7 @@ const Entries = (props) => {
         <h3>1st Thanks: {entry.fields.firstThanks}</h3>
         <h3>2nd Thanks: {entry.fields.secondThanks}</h3>
         <h3>3rd Thanks: {entry.fields.thirdThanks}</h3>
+        <button type="Delete">Delete Entry</button>
       </div>
     );
   });
