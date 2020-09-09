@@ -11,6 +11,7 @@ import "./App.css";
 import "./Styling/Nav.css";
 import "./Styling/Entries.css";
 import "./Styling/CreateEntries.css";
+import "./Styling/About.css"
 
 function App() {
   const [entries, setEntries] = useState([]);

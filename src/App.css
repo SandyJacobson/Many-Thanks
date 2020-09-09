@@ -41,3 +41,10 @@ h1 {
     width: 60%;
   }
   }
+
+  @media (min-width: 1200px) {
+    img {
+      height: auto;
+      width: 75%;
+    }
+    }

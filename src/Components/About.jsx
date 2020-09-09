@@ -2,7 +2,7 @@ import React from "react";
 
 const About = (props) => {
   return (
-    <div>
+    <div className='about'>
       <h3>About Us</h3>
       <p>
         In a world where everything a person could want is just a click of a

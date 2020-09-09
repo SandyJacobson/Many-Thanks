@@ -35,3 +35,30 @@ justify-content: space-evenly;
 .about-link:hover {
   background-color: rgba(147, 108, 189)
 }
+
+@media (min-width: 1200px) {
+  .about-link {
+    height: 35px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-link {
+    height: 35px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .entries-link {
+    height: 35px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    margin: 8px
+  }
+  }
