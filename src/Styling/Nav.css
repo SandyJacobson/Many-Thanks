@@ -1,6 +1,6 @@
-nav {
+/* nav {
 background-color: rgba(170, 209, 230);
-}
+} */
 
 .display {
 display: flex;
@@ -10,11 +10,17 @@ justify-content: space-evenly;
 .home-link {
   background-color: rgba(245, 110, 112); 
   font-size: large;
+  padding: 0 20px 0 20px;
+  text-decoration: none;
+  color: white;
 }
 
 .entries-link {
   background-color: rgba(37, 50, 93);
   font-size: large;
+  padding: 0 20px 0 20px;
+  text-decoration: none;
+  color: white;
 }
 
 .about-link {

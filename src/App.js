@@ -10,6 +10,7 @@ import { baseURL } from "./constants";
 import "./App.css";
 import "./Styling/Nav.css";
 import "./Styling/Entries.css";
+import "./Styling/CreateEntries.css";
 
 function App() {
   const [entries, setEntries] = useState([]);

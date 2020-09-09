@@ -3,10 +3,10 @@
 }
 
 img {
+  margin: 0 auto;
   height: auto;
   width: 90%;
   border-radius: 10%;
-  margin: 0 auto;
 }
 
 h1 {

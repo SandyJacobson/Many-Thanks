@@ -1,4 +1,10 @@
 .entries-info {
+  text-align: center;
   border: 1px;
   border-style: solid black;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
 }
