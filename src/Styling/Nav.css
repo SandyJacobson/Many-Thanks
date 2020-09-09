@@ -8,21 +8,34 @@ justify-content: space-evenly;
 }
 
 .home-link {
-  background-color: rgba(245, 110, 112); 
+  background-color: rgba(37, 50, 93); 
   font-size: large;
-  padding: 0 20px 0 20px;
-  text-decoration: none;
-  color: white;
+  padding: 0 10px 0 10px;
+  transition-duration: 0.4s;
+}
+
+.home-link:hover {
+  background-color: rgba(147, 108, 189)
 }
 
 .entries-link {
   background-color: rgba(37, 50, 93);
   font-size: large;
-  padding: 0 20px 0 20px;
-  text-decoration: none;
-  color: white;
+  padding: 0 10px 0 10px;
+  transition-duration: 0.4s;
+}
+
+.entries-link:hover {
+  background-color: rgba(147, 108, 189)
 }
 
 .about-link {
+  background-color: rgba(245, 110, 112);
   font-size: large;
+  padding: 0 10px 0 10px;
+  transition-duration: 0.4s;
+}
+
+.about-link:hover {
+  background-color: rgba(147, 108, 189)
 }

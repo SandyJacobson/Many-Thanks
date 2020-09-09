@@ -24,7 +24,6 @@ function App() {
         },
       };
       const response = await axios.get(baseURL, apiKey);
-      console.log(response);
       setEntries(response.data.records);
     };
     getEntries();

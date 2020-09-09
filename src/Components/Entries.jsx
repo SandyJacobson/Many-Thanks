@@ -2,11 +2,11 @@ import React from "react";
 import axios from "axios";
 
 const Entries = (props) => {
-  const { fetchEntries, setFetchEntries, entries, setEntries } = props;
+  const { setFetchEntries, entries } = props;
 
   const handleDelete = async (id) => {
     const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/manythanks/${id}`;
-    const deletedEntry = await axios.delete(airtableURL, {
+     await axios.delete(airtableURL, {
       headers: {
         Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
       },
