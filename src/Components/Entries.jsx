@@ -23,6 +23,7 @@ const Entries = (props) => {
         <h3>2nd Thanks: {entry.fields.secondThanks}</h3>
         <h3>3rd Thanks: {entry.fields.thirdThanks}</h3>
         <button
+          className='delete-button'
           id={entry.id}
           type="Delete"
           onClick={() => handleDelete(entry.id)}

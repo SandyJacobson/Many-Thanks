@@ -1,5 +1,17 @@
 .app {
   background-color: rgba(170, 209, 230);
+  /* height: 100vh; */
+}
+
+.nav-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  background-color: rgba(170, 209, 230);
 }
 
 a:link {
@@ -13,12 +25,19 @@ a:visited {
 }
 
 img {
-  margin: 0 auto;
   height: auto;
   width: 90%;
   border-radius: 10%;
+  margin: 0 auto;
 }
 
 h1 {
   text-align: center;
 }
+
+@media (min-width: 700px) {
+  img {
+    height: auto;
+    width: 60%;
+  }
+  }

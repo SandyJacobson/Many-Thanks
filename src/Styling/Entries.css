@@ -1,10 +1,30 @@
-.entries-info {
+.entries-data {
   text-align: center;
-  border: 1px;
-  border-style: solid black;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 0 0 10px 0;
 }
 
 h2 {
   text-align: center;
   text-decoration: underline;
 }
+
+@media (min-width: 700px) {
+  .entries-data{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%
+  }
+  .entries-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .delete-button {
+    width: 100px;
+    margin:  0 auto;
+  }
+}
+
