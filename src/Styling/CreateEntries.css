@@ -6,3 +6,35 @@
   margin: 50px auto;
   padding: 10px;
 }
+
+.name {
+  padding: 0 50px 0 0;
+}
+
+.first-thanks {
+  padding: 0 16px 0 0;
+}
+
+.second-thanks {
+  padding: 0 12px 0 0;
+}
+
+.third-thanks {
+  padding: 0 13px 0 0;
+}
+
+.date {
+  padding: 0 58px 0 0;
+}
+
+.third-input {
+  margin: 0 5px 0 0;
+}
+
+.fourth-input {
+  margin: 0 2px 0 0; 
+}
+
+.fifth-input {
+  margin: 0 0 10px 0; 
+}

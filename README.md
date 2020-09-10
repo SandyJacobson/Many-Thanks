@@ -65,11 +65,11 @@ https://wireframe.cc/L43Imq
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|September 4| Project Approval | Incomplete
-|September 7| Core Application Structure (React Components)/Integrating API | Incomplete
-|September 8| Set up routes for sperate pages and create new entry form | Incomplete
-|September 9| Finish any incomplete core structure and styling  | Incomplete
-|Semptember 10|  Post MVP/Delete Entry Button/Favorite Button/3 Pages | Incomplete
+|September 4| Project Approval | Complete
+|September 7| Core Application Structure (React Components)/Integrating API | Complete
+|September 8| Set up routes for sperate pages and create new entry form | Complete
+|September 9| Finish any incomplete core structure and styling  | Complete
+|Semptember 10|  Post MVP/Delete Entry Button/Favorite Button/3 Pages | Complete
 |September 11| Presentations | Incomplete
 
 ## Priority Matrix
@@ -80,18 +80,19 @@ https://app.lucidchart.com/invitations/accept/837b181a-2f4f-48c1-ac46-9f0b17f742
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Setting up basic structure | H | 3hrs| 0 | 0 |
-| Setting up basic structure | H | 3hrs| 0 | 0 |
-| Working with API | H | 3hrs| 0 | 0 |
-| Working with API | H | 3hrs| 0 | 0 |
-| Setting up routes and new pages | H | 3hrs| 0 | 0 |
-| Setting up routes and new pages | H | 3hrs| 0 | 0 |
-| Creating new entry form | H | 3hrs| 0 | 0 |
-| Creating new entry form | H | 3hrs| 0 | 0 |
-| Fix bugs, rework any structure issues | H | 3hrs| 0 | 0 |
-| Fix bugs, rework any structure issues | H | 3hrs| 0 | 0 |
-| Styling | H | 3hrs| 0 | 0 |
-| Styling | H | 3hrs| 0 | 0 |
+| Setting up basic structure | H | 3hrs| 3hrs | 3hrs |
+| Setting up basic structure | H | 3hrs| 3hrs | 3hrs |
+| Working with API | H | 3hrs| 3hrs | 3hrs |
+| Working with API | H | 3hrs| 3hrs | 3hrs |
+| Setting up routes and new pages | H | 3hrs| 3hrs | 3hrs |
+| Setting up routes and new pages | H | 3hrs| 3hrs | 3hrs |
+| Creating new entry form | H | 3hrs| 3hrs | 3hrs |
+| Creating new entry form | H | 3hrs| 3hrs | 3hrs |
+| Fix bugs, rework any structure issues | H | 3hrs| 3hrs | 3hrs |
+| Fix bugs, rework any structure issues | H | 3hrs| 3hrs | 3hrs |
+| Styling | H | 3hrs| 3hrs | 3hrs |
+| Styling | H | 3hrs| 3hrs | 3hrs |
+| Styling | H | 3hrs| 3hrs | 3hrs |
 | Post MVP | H | 3hrs| 0 | 0 |
 | Post MVP | H | 3hrs| 0 | 0 |
 | Post MVP | H | 3hrs| 0 | 0 |

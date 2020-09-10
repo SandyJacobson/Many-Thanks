@@ -41,8 +41,9 @@ const CreateEntries = (props) => {
     <div className="form">
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label>
+          <label className='name' htmlFor="name">Name:</label>
           <input
+          className='first-input'
             name="name"
             type="name"
             value={name}
@@ -50,8 +51,9 @@ const CreateEntries = (props) => {
           />
         </div>
         <div>
-          <label htmlFor="1st-thanks">1st Thanks:</label>
+          <label className='first-thanks' htmlFor="1st-thanks">1st Thanks:</label>
           <input
+            className='second-input'
             name="1st-thanks"
             type="1st-Thanks"
             value={firstThanks}
@@ -59,8 +61,9 @@ const CreateEntries = (props) => {
           />
         </div>
         <div>
-          <label htmlFor="2nd-thanks">2nd Thanks:</label>
+          <label className='second-thanks' htmlFor="2nd-thanks">2nd Thanks:</label>
           <input
+          className='third-input'
             name="2nd-thanks"
             type="2nd-Thanks"
             value={secondThanks}
@@ -68,8 +71,9 @@ const CreateEntries = (props) => {
           />
         </div>
         <div>
-          <label htmlFor="3rd-thanks">3rd Thanks:</label>
+          <label className='third-thanks' htmlFor="3rd-thanks">3rd Thanks:</label>
           <input
+            className='fourth-input'
             name="3rd-thanks"
             type="3rd-Thanks"
             value={thirdThanks}
@@ -77,8 +81,9 @@ const CreateEntries = (props) => {
           />
         </div>
         <div>
-          <label htmlFor="date">Date:</label>
+          <label className='date' htmlFor="date">Date:</label>
           <input
+          className='fifth-input'
             name="date"
             type="date"
             value={date}
