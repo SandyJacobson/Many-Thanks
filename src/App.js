@@ -5,6 +5,7 @@ import About from "./Components/About";
 import Home from "./Components/Home";
 import CreateEntries from "./Components/CreateEntries";
 import Entries from "./Components/Entries";
+import Footer from "./Components/Footer";
 import axios from "axios";
 import { baseURL } from "./constants";
 import "./App.css";
@@ -12,6 +13,7 @@ import "./Styling/Nav.css";
 import "./Styling/Entries.css";
 import "./Styling/CreateEntries.css";
 import "./Styling/About.css"
+import "./Styling/Footer.css"
 
 function App() {
   const [entries, setEntries] = useState([]);
@@ -62,6 +64,9 @@ function App() {
             fetchEntires={fetchEntries}
             setFetchEntries={setFetchEntries}
           />
+        </Route>
+        <Route path='/'>
+          <Footer />
         </Route>
       </div>
     </div>

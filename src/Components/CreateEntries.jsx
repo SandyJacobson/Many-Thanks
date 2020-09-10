@@ -7,7 +7,6 @@ const CreateEntries = (props) => {
   const [secondThanks, setSecondThanks] = useState("");
   const [thirdThanks, setThirdThanks] = useState("");
   const [date, setDate] = useState("");
-  const { fetchEntries } = props;
 
   const handleSubmit = async (event) => {
     event.preventDefault();
