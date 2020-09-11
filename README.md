@@ -4,6 +4,8 @@
 
 Many Thanks
 
+https://many-thanks.netlify.app/
+
 ## Project Description
 
 In a world where everything a person could want is just a click of a button away, we have become increasingly more entitled. To qoute Veruca Salt, "I want it and I want it now", this mentality is becoming increasingly more relevant with every generation. But do we ever stop to think about the all people who make it happen behind the scenes?
@@ -93,10 +95,8 @@ https://app.lucidchart.com/invitations/accept/837b181a-2f4f-48c1-ac46-9f0b17f742
 | Styling | H | 3hrs| 3hrs | 3hrs |
 | Styling | H | 3hrs| 3hrs | 3hrs |
 | Styling | H | 3hrs| 3hrs | 3hrs |
-| Post MVP | H | 3hrs| 0 | 0 |
-| Post MVP | H | 3hrs| 0 | 0 |
-| Post MVP | H | 3hrs| 0 | 0 |
-| Total | H | 45hrs| hrs | hrs |
+| Post MVP | H | 3hrs| 3hrs | 3hrs |
+| Total | H | 45hrs| 42hrs | 42hrs |
 
 ## Swot Analysis
 
@@ -120,13 +120,17 @@ https://app.lucidchart.com/invitations/accept/837b181a-2f4f-48c1-ac46-9f0b17f742
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+I was having an issue where I was submitting my form and my data was going to the airtable api, but not refreshing on the page. You would literally have to refresh the page. I struggled figuring out how to fix the issue, but I (with the help of Stefon) remembered 'prevState' which led to us fixing the issue. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+    props.setFetchEntries((prevEntries) => !prevEntries);
+    setName("");
+    setFirstThanks("");
+    setSecondThanks("");
+    setThirdThanks("");
+    setDate("");
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+
+No major changes in my project. Things mainly went according to plan.  
